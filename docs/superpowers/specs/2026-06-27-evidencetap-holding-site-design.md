@@ -65,15 +65,17 @@ Text-only. Grouped by strand to reinforce the "one engine, multiple fields"
 story. Each entry: name · affiliation (· optional link). Grouping is a
 presentation choice and easily adjusted.
 
-**Infrastructure**
+**Computer Science**
 - Anil Madhavapeddy — Department of Computer Science & Technology, University of Cambridge
 - Sadiq Jaffer — Department of Computer Science & Technology, University of Cambridge
+- Robin Message - Department of Computer Science & Technology, University of Cambridge
 
 **Conservation**
+- Lynn Dicks — Department of Zoology, University of Cambridge
 - William Sutherland — Department of Zoology, University of Cambridge
 - Sam Reynolds — Department of Zoology, University of Cambridge
+- William Morgan — Department of Zoology, University of Cambridge
 - Alec Christie — Imperial College London
-- William Morgan — Cambridge Conservation Initiative
 
 **Education**
 - Jenny Gibson — Faculty of Education, University of Cambridge
