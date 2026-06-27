@@ -1,11 +1,41 @@
+@font-face {
+  font-family: "Roslindale Display";
+  src: url("/fonts/RoslindaleVariable.woff2") format("woff2-variations");
+  font-weight: 200 900;
+  font-stretch: 50% 125%;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roslindale Text";
+  src: url("/fonts/RoslindaleText-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roslindale Text";
+  src: url("/fonts/RoslindaleText-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roslindale Text";
+  src: url("/fonts/RoslindaleText-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --paper: #faf8f2;
   --ink: #17150f;
   --accent: #33503f;
   --rule: rgba(23, 21, 15, 0.14);
   --measure: 62ch;
-  --font-display: Georgia, "Times New Roman", serif; /* replaced in Task 2 */
-  --font-text: Georgia, "Times New Roman", serif;     /* replaced in Task 2 */
+  --font-display: "Roslindale Display", Georgia, "Times New Roman", serif;
+  --font-text: "Roslindale Text", Georgia, "Times New Roman", serif;
 }
 
 * { box-sizing: border-box; }
