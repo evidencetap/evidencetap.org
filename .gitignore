@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build output
+/build/
+/.svelte-kit/
+/dist/
+
+# raw licensed font package (only the subset used by the site is committed under static/fonts)
+/DJR-Fonts-2026-06-27-e88882c/
+
+# source material / notes (not part of the deployed site)
+/notes/
+
+# os / editor
+.DS_Store
+*.log
+.env
+.env.*
