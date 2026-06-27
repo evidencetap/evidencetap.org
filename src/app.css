@@ -1,0 +1,29 @@
+:root {
+  --paper: #faf8f2;
+  --ink: #17150f;
+  --accent: #33503f;
+  --rule: rgba(23, 21, 15, 0.14);
+  --measure: 62ch;
+  --font-display: Georgia, "Times New Roman", serif; /* replaced in Task 2 */
+  --font-text: Georgia, "Times New Roman", serif;     /* replaced in Task 2 */
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a { color: inherit; text-underline-offset: 0.18em; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+img { max-width: 100%; }
