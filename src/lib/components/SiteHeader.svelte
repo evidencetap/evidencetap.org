@@ -3,7 +3,7 @@
   const nav = [
     { href: "/", label: "Evidence TAP" },
     { href: "/people", label: "People" },
-    { href: "/papers", label: "Papers" }
+    { href: "/#papers", label: "Papers" }
   ];
   const active = (href: string, path: string) =>
     href === "/" ? path === "/" : path.startsWith(href);

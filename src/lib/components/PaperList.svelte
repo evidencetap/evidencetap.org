@@ -1,7 +1,8 @@
 <script lang="ts">
   import type { Paper } from "$lib/types";
   import { doiUrl } from "$lib/data/papers";
-  let { papers }: { papers: Paper[] } = $props();
+  let { papers, titleAs = "h2" }: { papers: Paper[]; titleAs?: string } =
+    $props();
 
   const authorLine = (authors: string[]) =>
     authors.length > 4
@@ -12,9 +13,9 @@
 <ol class="papers">
   {#each papers as paper}
     <li>
-      <h2 class="title">
+      <svelte:element this={titleAs} class="title">
         <a href={doiUrl(paper.doi)} rel="noopener">{paper.title}</a>
-      </h2>
+      </svelte:element>
       <p class="meta">
         {authorLine(paper.authors)}
         <span aria-hidden="true">·</span>

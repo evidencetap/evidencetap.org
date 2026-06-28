@@ -5,7 +5,6 @@
   disables the animation and shows the settled state immediately.
 -->
 <div class="hero">
-  <p class="wordmark">Evidence&nbsp;<span class="tap">TAP</span></p>
   <h1 class="tagline">
     Empowering equitable, rational policymaking through
     <em>living&nbsp;evidence</em>.
@@ -15,17 +14,6 @@
 
 <style>
   .hero { padding: clamp(1rem, 4vw, 3rem) 0 clamp(2rem, 6vw, 4rem); }
-
-  .wordmark {
-    margin: 0 0 clamp(1.5rem, 4vw, 2.5rem);
-    font-family: var(--font-display);
-    font-variation-settings: "opsz" 16, "wght" 520, "wdth" 84;
-    font-size: 0.95rem;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    opacity: 0.66;
-  }
-  .wordmark .tap { font-variation-settings: "opsz" 16, "wght" 760, "wdth" 84; }
 
   /* Base = final, visible state (what no-JS / reduced-motion users see). */
   .tagline {
