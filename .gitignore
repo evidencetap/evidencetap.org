@@ -13,6 +13,9 @@ node_modules/
 # source material / notes (not part of the deployed site)
 /notes/
 
+# vite transient config transpile artifacts
+vite.config.*.timestamp-*.mjs
+
 # os / editor
 .DS_Store
 *.log
