@@ -1,7 +1,7 @@
 <!--
   Pure-CSS variable-font specimen. The load animation runs via @keyframes,
-  so it works with JavaScript disabled and the base styles are the final,
-  fully-visible state — there is no JS-dependent reveal. prefers-reduced-motion
+  so it works with JavaScript disabled. The base styles are the final,
+  fully-visible state; there is no JS-dependent reveal. prefers-reduced-motion
   disables the animation and shows the settled state immediately.
 -->
 <div class="hero">
@@ -21,7 +21,7 @@
     max-width: 18ch;
     font-family: var(--font-display);
     font-weight: normal;
-    font-size: clamp(2.6rem, 1.2rem + 8vw, 7rem);
+    font-size: var(--text-hero);
     line-height: 0.98;
     letter-spacing: -0.012em;
     font-variation-settings: "opsz" 80, "wght" 360, "wdth" 100;
@@ -50,7 +50,7 @@
     margin: clamp(1.5rem, 4vw, 2.5rem) 0 0;
     font-family: var(--font-display);
     font-variation-settings: "opsz" 24, "wght" 380, "wdth" 96;
-    font-size: clamp(1.1rem, 0.9rem + 1vw, 1.6rem);
+    font-size: var(--text-lead);
     font-style: italic;
     opacity: 0.8;
   }

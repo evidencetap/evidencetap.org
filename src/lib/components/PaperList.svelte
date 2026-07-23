@@ -38,7 +38,7 @@
     margin: 0 0 0.6rem;
     font-family: var(--font-display);
     font-variation-settings: "opsz" 44, "wght" 400, "wdth" 96;
-    font-size: clamp(1.5rem, 1.2rem + 1.6vw, 2.3rem);
+    font-size: var(--text-title);
     line-height: 1.08;
     letter-spacing: -0.01em;
   }

@@ -6,7 +6,7 @@
 <div class="strands">
   {#each groups as group}
     <section class="strand">
-      <h2>{group.strand}</h2>
+      <h3>{group.strand}</h3>
       <ul>
         {#each group.people as person}
           <li>
@@ -27,7 +27,7 @@
 
 <style>
   .strands { display: grid; gap: 3.5rem; max-width: 56rem; }
-  h2 {
+  h3 {
     margin: 0 0 1.25rem;
     font-family: var(--font-display);
     font-variation-settings: "opsz" 16, "wght" 520, "wdth" 78;
@@ -44,7 +44,7 @@
     display: block;
     font-family: var(--font-display);
     font-variation-settings: "opsz" 36, "wght" 420, "wdth" 100;
-    font-size: clamp(1.3rem, 1.1rem + 1vw, 1.7rem);
+    font-size: var(--text-title);
     line-height: 1.15;
   }
   .name a { text-decoration: none; }
