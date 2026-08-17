@@ -27,6 +27,34 @@ export const events: NewsEvent[] = [
     url: sam("#talks")
   },
   {
+    date: "2026-08-09",
+    title: "The Conservation Copilot takes shape",
+    detail:
+      "The team advanced the Conservation Copilot, a layer over the evidence-synthesis pipeline, in step with a major overhaul of the shared paper storage and classification infrastructure that underpins it.",
+    kind: "milestone",
+    url: anil("2026w32#evidence-tap")
+  },
+  {
+    date: "2026-08-02",
+    title: "Building the literature pipeline for Evidence TAP",
+    detail:
+      "Work on Taposaur, the project's processing pipeline: a custom downloader that navigates publisher access, and a GROBID-based metadata index over millions of full-text papers, giving the Copilot secure, local-model-only access to the corpus.",
+    kind: "milestone",
+    url: anil("2026w31#arise-taposaur-and-obtain-the-literature-for-evidence-tap"),
+    picture: anilImg(
+      "taposaur-ss-1",
+      "The Taposaur index dashboard, showing GROBID and TEI conversion progress across 3.3 million papers"
+    )
+  },
+  {
+    date: "2026-07-26",
+    title: "A public home for Evidence TAP",
+    detail:
+      "With growing interest from policymakers in living evidence databases, the project began putting together this public website to explain the approach.",
+    kind: "milestone",
+    url: anil("2026w30#prototyping-the-evidence-tap-website-with-an-agent")
+  },
+  {
     date: "2026-07-20",
     title: "Principles for responsible AI in conservation",
     detail:
