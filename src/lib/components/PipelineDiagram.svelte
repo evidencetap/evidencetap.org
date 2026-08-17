@@ -14,7 +14,7 @@
       </marker>
     </defs>
 
-    <text class="cap side-label" font-size="13" transform="rotate(-90 30 300)" x="30" y="300" text-anchor="middle" opacity="0.6">TRACEABLE AI PIPELINE</text>
+    <text class="cap side-label" font-size="13" transform="rotate(-90 30 300)" x="30" y="300" text-anchor="middle" opacity="0.6">TRACEABLE ACCOUNTABLE PIPELINE</text>
 
     <!-- svelte-ignore a11y_no_noninteractive_tabindex (focusable on purpose: focus reveals the tooltip) -->
     <g class="hs hs-ingest" tabindex="0" role="img" aria-label="Ingest. Journals, preprints, reports and grey literature are harvested continuously, across many sources and languages, on self-hosted models.">

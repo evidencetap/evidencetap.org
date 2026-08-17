@@ -9,7 +9,7 @@
     Empowering equitable, rational policymaking through
     <em>living&nbsp;evidence</em>.
   </h1>
-  <p class="sub">The Cambridge Traceable AI pipeline.</p>
+  <p class="sub">The Cambridge Traceable Accountable Pipeline (TAP).</p>
 </div>
 
 <style>

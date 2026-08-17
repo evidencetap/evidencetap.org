@@ -10,7 +10,7 @@
     {
       year: "2022",
       title: "Undergraduate beginnings",
-      desc: "Initial group projects at Cambridge explore whether AI can help screen the vast conservation literature."
+      desc: `Initial group projects at Cambridge explore whether AI can help screen the vast conservation literature, made possible by the decades-long corpus of evidence assembled in the <a href="https://conservationevidence.com" rel="noopener">Conservation Evidence</a> database.`
     },
     {
       year: "2023",

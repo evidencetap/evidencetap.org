@@ -34,7 +34,7 @@
     },
     {
       q: "Will the full text be redistributed or republished?",
-      a: "No. The full-text corpus is never redistributed or republished; it remains firewalled on University of Cambridge servers. The living evidence database we produce contains derived outputs (structured findings and metadata, each linked back to the original publication), and these may be shared openly so that the evidence stays traceable to its source. We do not reproduce substantial portions of the original articles."
+      a: "No. The full-text corpus is never redistributed or republished; it remains firewalled on University of Cambridge servers. The living evidence database we produce contains derived outputs (structured findings and metadata, each linked back to the original publication), and these may be shared openly so that the evidence stays traceable to its source."
     }
   ];
 </script>
@@ -61,7 +61,7 @@
 
   <h2>The project</h2>
   <p>
-    Evidence TAP (the Cambridge Traceable AI Pipeline) is a non-commercial
+    Evidence TAP (the Cambridge Traceable Accountable Pipeline) is a non-commercial
     academic research project, hosted at the University of Cambridge departments
     of Computer Science, Zoology and Education. Its goal is to create
     <em>living evidence
@@ -71,6 +71,10 @@
     appraises study design, and extracts structured findings, so that systematic
     reviews stay current for evidence-based policymaking rather than going out of
     date the moment they are published.
+  </p>
+  <p>
+    The project is currently funded to run until October 2030, and is subject to
+    renewal beyond that date.
   </p>
   <p>
     Delivering this depends on analysing the full text of research articles. We
