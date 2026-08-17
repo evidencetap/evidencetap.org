@@ -16,6 +16,7 @@
               {:else}
                 {person.name}
               {/if}
+              {#if person.dates}<span class="dates">{person.dates}</span>{/if}
             </span>
             <span class="affil">{person.affiliation}</span>
           </li>
@@ -49,5 +50,15 @@
   }
   .name a { text-decoration: none; }
   .name a:hover { color: var(--accent); text-decoration: underline; }
+  .dates {
+    margin-left: 0.6rem;
+    font-family: var(--font-text);
+    font-size: 0.85rem;
+    font-variation-settings: normal;
+    letter-spacing: 0.02em;
+    color: var(--accent);
+    opacity: 0.85;
+    vertical-align: 0.08em;
+  }
   .affil { font-size: 0.95rem; opacity: 0.66; font-style: italic; }
 </style>

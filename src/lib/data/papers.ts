@@ -4,6 +4,16 @@ export function doiUrl(doi: string): string {
   return `https://doi.org/${doi}`;
 }
 
+/** Paper thumbnails are hosted on anil.recoil.org with responsive variants. */
+export function paperThumb(slug: string) {
+  return {
+    src: `https://anil.recoil.org/images/papers/${slug}.640.webp`,
+    srcset: [320, 640]
+      .map((w) => `https://anil.recoil.org/images/papers/${slug}.${w}.webp ${w}w`)
+      .join(", ")
+  };
+}
+
 export const papers: Paper[] = [
   {
     title: "AI-assisted Living Evidence Databases for Conservation Science",
@@ -20,7 +30,8 @@ export const papers: Paper[] = [
     month: 10,
     doi: "10.33774/coe-2025-rmsqf",
     summary:
-      "The flagship pipeline: a self-hosted, end-to-end system that ingests, screens, and extracts structured data from the literature. It achieves 97% recall against a large manual review."
+      "The flagship pipeline: a self-hosted, end-to-end system that ingests, screens, and extracts structured data from the literature. It achieves 97% recall against a large manual review.",
+    thumb: "2025-evidence-tap"
   },
   {
     title: "Will AI speed up literature reviews or derail them entirely?",
@@ -37,7 +48,8 @@ export const papers: Paper[] = [
     month: 7,
     doi: "10.1038/d41586-025-02069-w",
     summary:
-      "AI-generated “poison” papers threaten evidence synthesis. Traceable AI pipelines can form part of the defence."
+      "AI-generated “poison” papers threaten evidence synthesis. Traceable AI pipelines can form part of the defence.",
+    thumb: "2025-ai-poison"
   },
   {
     title:
@@ -55,7 +67,8 @@ export const papers: Paper[] = [
     month: 5,
     doi: "10.1371/journal.pone.0323563",
     summary:
-      "Well-designed hybrid retrieval pipelines reach expert-level performance on conservation evidence questions. Off-the-shelf LLMs fall short."
+      "Well-designed hybrid retrieval pipelines reach expert-level performance on conservation evidence questions. Off-the-shelf LLMs fall short.",
+    thumb: "2024-ce-llm"
   },
   {
     title: "Conservation changed but not divided",
@@ -65,7 +78,8 @@ export const papers: Paper[] = [
     month: 4,
     doi: "10.1016/j.tree.2025.04.002",
     summary:
-      "AI can unite rather than divide conservation if it is built around human expertise, openness, and capacity-building."
+      "AI can unite rather than divide conservation if it is built around human expertise, openness, and capacity-building.",
+    thumb: "2025-conservation-div"
   },
   {
     title: "The potential for AI to revolutionize conservation: a horizon scan",
@@ -75,6 +89,7 @@ export const papers: Paper[] = [
     month: 12,
     doi: "10.1016/j.tree.2024.11.013",
     summary:
-      "A horizon scan of where AI could most transform conservation practice, covering both opportunities and risks."
+      "A horizon scan of where AI could most transform conservation practice, covering both opportunities and risks.",
+    thumb: "2024-ai-conhorizon"
   }
 ];

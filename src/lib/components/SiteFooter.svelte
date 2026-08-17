@@ -3,6 +3,8 @@
     <a href="mailto:avsm2@cam.ac.uk">avsm2@cam.ac.uk</a>
     <span aria-hidden="true">·</span>
     University of Cambridge
+    <span aria-hidden="true">·</span>
+    <a href="/text-and-data-mining">Text &amp; data mining</a>
   </p>
 </footer>
 

@@ -1,19 +1,19 @@
 <script lang="ts">
-  import PersonList from "$lib/components/PersonList.svelte";
+  import PaperList from "$lib/components/PaperList.svelte";
   import Icon from "$lib/components/Icon.svelte";
-  import { groups } from "$lib/data/people";
+  import { papers } from "$lib/data/papers";
 </script>
 
 <svelte:head>
-  <title>People · Evidence TAP</title>
+  <title>Papers · Evidence TAP</title>
   <meta
     name="description"
-    content="The Evidence TAP team across computer science, conservation and education at the University of Cambridge and beyond."
+    content="Key papers behind Evidence TAP, from the living evidence databases preprint to the Nature comment on AI and the scientific literature."
   />
 </svelte:head>
 
-<h1 class="headline"><Icon name="users" size={32} /><span>People</span></h1>
-<PersonList {groups} />
+<h1 class="headline"><Icon name="file-text" size={32} /><span>Papers</span></h1>
+<PaperList {papers} titleAs="h2" />
 
 <style>
   .headline {
