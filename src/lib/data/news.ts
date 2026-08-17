@@ -38,7 +38,7 @@ export const events: NewsEvent[] = [
     date: "2026-08-02",
     title: "Building the literature pipeline for Evidence TAP",
     detail:
-      "Work on Taposaur, the project's processing pipeline: a custom downloader that navigates publisher access, and a GROBID-based metadata index over millions of full-text papers, giving the Copilot secure, local-model-only access to the corpus.",
+      "The team began building Taposaur, the project's literature-processing pipeline. A custom downloader navigates publisher access, while a GROBID-based index spans millions of full-text papers and gives the Copilot secure, local-model-only access to the corpus.",
     kind: "milestone",
     url: anil("2026w31#arise-taposaur-and-obtain-the-literature-for-evidence-tap"),
     picture: anilImg(
@@ -70,7 +70,7 @@ export const events: NewsEvent[] = [
     date: "2026-07-19",
     title: "Evidence TAP takes shape",
     detail:
-      "Project paperwork lands and regular meetings begin: Eleanor Toye Scott joins to organise the living evidence database design requirements, alongside the conservation and education teams.",
+      "With the paperwork now finalised, regular project meetings got under way. Eleanor Toye Scott joined to organise the living evidence database design requirements, working alongside the conservation and education teams.",
     kind: "milestone",
     url: anil("2026w29#evidence-tap-starts-taking-shape"),
     picture: anilImg(
