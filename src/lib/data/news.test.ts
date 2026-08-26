@@ -2,7 +2,11 @@ import { describe, it, expect } from "vitest";
 import { events, formatDate, linkHost, splitEvents } from "./news";
 
 const ISO = /^\d{4}-\d{2}-\d{2}$/;
-const TEAM_HOSTS = ["anil.recoil.org", "samreynolds.org"];
+const TEAM_HOSTS = [
+  "anil.recoil.org",
+  "samreynolds.org",
+  "conservationevidencecopilot.com"
+];
 
 describe("news events", () => {
   it("every event has the required fields", () => {
@@ -22,7 +26,7 @@ describe("news events", () => {
     const withPictures = events.filter((e) => e.picture);
     expect(withPictures.length).toBeGreaterThan(0);
     for (const e of withPictures) {
-      expect(e.picture!.src).toMatch(/^https:\/\//);
+      expect(e.picture!.src).toMatch(/^(https:\/\/|\/)/);
       expect(e.picture!.alt.length).toBeGreaterThan(0);
     }
   });

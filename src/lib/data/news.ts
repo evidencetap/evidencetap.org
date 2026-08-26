@@ -27,6 +27,20 @@ export const events: NewsEvent[] = [
     url: sam("#talks")
   },
   {
+    date: "2026-08-22",
+    title: "Conservation Evidence Copilot enters private preview",
+    detail:
+      "The Conservation Evidence Copilot, which searches the Conservation Evidence database to answer conservation questions with cited scientific studies, opened to invited testers in an invite-only alpha. If you would like to trial it, please get in touch with Sam Reynolds (sar87@cam.ac.uk).",
+    kind: "milestone",
+    url: "https://www.conservationevidencecopilot.com/",
+    picture: {
+      src: "/images/news/copilot-preview.640.webp",
+      srcset:
+        "/images/news/copilot-preview.320.webp 320w, /images/news/copilot-preview.640.webp 640w",
+      alt: "The Conservation Evidence Copilot landing page, inviting a conservation question"
+    }
+  },
+  {
     date: "2026-08-09",
     title: "The Conservation Copilot takes shape",
     detail:
