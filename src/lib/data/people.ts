@@ -67,7 +67,7 @@ export const groups: PersonGroup[] = [
         url: "https://www.csap.cam.ac.uk/network/rob-doubleday/"
       },
       {
-        name: "Nicky Buckley",
+        name: "Nicola Buckley",
         affiliation:
           "Director for Fellowships and Networks, Centre for Science and Policy (CSaP), University of Cambridge",
         url: "https://www.csap.cam.ac.uk/network/nicola-buckley/"
