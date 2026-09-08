@@ -19,12 +19,52 @@ const anilImg = (name: string, alt: string) => ({
 
 export const events: NewsEvent[] = [
   {
+    date: "2026-10-01",
+    title: "Harnessing AI for Nature at Stanford",
+    detail:
+      "Sam Reynolds has been invited to a Stanford University Uncommon Dialogue on harnessing AI for nature, alongside a small group of participants, with a guest lecture and departmental seminar planned around the visit.",
+    kind: "talk",
+    url: sam("notes.html#2026-09-04-week-notes-04092026")
+  },
+  {
     date: "2026-09-07",
     title: "AI and rapid evidence reviews at the DEFRA data festival",
     detail:
       "Sam Reynolds leads a workshop at the DEFRA Group Data and Information Festival in London.",
     kind: "workshop",
     url: sam("#talks")
+  },
+  {
+    date: "2026-09-06",
+    title: "Evidence TAP finds a home at Pembroke",
+    detail:
+      "The project is now hosted at Pembroke College as the Evidence Traceable Accountable Pipeline, funded by the MacArthur Foundation to generalise the approach to new fields. Sam Reynolds, Mélanie Gréaux and Sadiq Jaffer joined the College as Associate Scholars.",
+    kind: "milestone",
+    url: anil("2026w36#more-polite-crawling-for-the-evidence-tap"),
+    picture: anilImg(
+      "pemb-etap-aa-1",
+      "Sadiq Jaffer, Mélanie Gréaux and Sam Reynolds at Pembroke College"
+    )
+  },
+  {
+    date: "2026-09-04",
+    title: "Filming the Conservation Copilot for ai@cam",
+    detail:
+      "Sam Reynolds and Lynn Dicks filmed a short ai@cam video on the Conservation Evidence Copilot, on how it can help conservation decision-makers embed evidence into their decisions.",
+    kind: "media",
+    url: sam("notes.html#2026-09-04-week-notes-04092026"),
+    picture: {
+      src: "https://www.samreynolds.org/images/notes/Images/Sam_Library.jpg",
+      alt: "Sam Reynolds in the Zoology library during filming for ai@cam"
+    }
+  },
+  {
+    date: "2026-08-30",
+    title: "The corpus passes 20 million full texts",
+    detail:
+      "The Evidence TAP database grew to around 20 million full texts. The team also refined the downloader so that it respects publishers' stated preferences about how their papers may be mined.",
+    kind: "milestone",
+    url: anil("2026w35#tdm-reservations-for-evidence-tap")
   },
   {
     date: "2026-08-22",
@@ -52,7 +92,7 @@ export const events: NewsEvent[] = [
     date: "2026-08-02",
     title: "Building the literature pipeline for Evidence TAP",
     detail:
-      "The team began building Taposaur, the project's literature-processing pipeline. A custom downloader navigates publisher access, while a GROBID-based index spans millions of full-text papers and gives the Copilot secure, local-model-only access to the corpus.",
+      "The team began building the pipeline that gathers and organises the research literature. A custom downloader works through publishers' access requirements, and an index over millions of papers gives the Copilot secure, local access to the collection.",
     kind: "milestone",
     url: anil("2026w31#arise-taposaur-and-obtain-the-literature-for-evidence-tap"),
     picture: anilImg(
@@ -166,7 +206,7 @@ export const events: NewsEvent[] = [
     date: "2026-03-22",
     title: "Securing full-text access from publishers",
     detail:
-      "The TAP's paper downloader needs full text for reproducible, human-in-the-loop annotation. Anil writes about navigating Springer's new premium API and Wiley's AI gateway, alongside evidence synthesis events at DESNZ and a Nature-hosted panel led by Sam.",
+      "The pipeline needs the full text of papers, with people checking its work along the way. Anil writes about arranging access with publishers, alongside evidence synthesis events at DESNZ and a Nature-hosted panel led by Sam.",
     kind: "milestone",
     url: anil("2026w12#springer-letting-us-download-papers-but-not-really")
   },

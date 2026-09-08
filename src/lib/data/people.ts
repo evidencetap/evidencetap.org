@@ -19,6 +19,12 @@ export const groups: PersonGroup[] = [
         affiliation:
           "Department of Computer Science & Technology, University of Cambridge",
         url: "https://www.cst.cam.ac.uk/people/eft20"
+      },
+      {
+        name: "Mark Elvers",
+        affiliation:
+          "Department of Computer Science & Technology, University of Cambridge",
+        url: "https://www.tunbury.org/"
       }
     ]
   },

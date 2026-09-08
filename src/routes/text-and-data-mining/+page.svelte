@@ -26,7 +26,7 @@
     },
     {
       q: "How can we identify or allowlist your crawler?",
-      a: "Our crawler requests identify themselves with a descriptive User-Agent string, EvidenceTAP/1.0 (+https://evidencetap.org/text-and-data-mining), and originate from University of Cambridge network ranges. If you would prefer we use a particular access route, respect a specific rate limit, or be added to an allowlist, please get in touch and we will adjust accordingly."
+      a: "Our crawler requests identify themselves with a descriptive User-Agent string, EvidenceTAP/1.0 (+https://evidencetap.org/text-and-data-mining), and originate from University of Cambridge network ranges. The downloader also honours the W3C Text and Data Mining Reservation Protocol (TDMRep), so it respects publishers' machine-readable mining reservations. If you would prefer we use a particular access route, respect a specific rate limit, or be added to an allowlist, please get in touch and we will adjust accordingly."
     },
     {
       q: "Can you confirm the results will be closed and only available to Cambridge-authorised users?",
