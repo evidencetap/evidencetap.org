@@ -27,6 +27,22 @@ export const events: NewsEvent[] = [
     url: sam("notes.html#2026-09-04-week-notes-04092026")
   },
   {
+    date: "2026-09-25",
+    title: "Evidence TAP at the AI for Good Summit",
+    detail:
+      "Mélanie Gréaux represented the project's education strand at the AI for Good Summit in Geneva. The Summit's focus on trustworthy AI and children's rights chimed with Evidence TAP's aim of transparent evidence tools for policymakers.",
+    detailHtml:
+      'Mélanie Gréaux represented the project\'s education strand at the <a href="https://aiforgood.itu.int/" rel="noopener">AI for Good</a> Summit in Geneva. The Summit\'s focus on trustworthy AI and children\'s rights chimed with Evidence TAP\'s aim of transparent evidence tools for policymakers.',
+    kind: "milestone",
+    url: "https://www.pedalhub.net/news-events/news/pedal-out-about-summer-2026/",
+    picture: {
+      src: "/images/news/ai-for-good-pedal.640.webp",
+      srcset:
+        "/images/news/ai-for-good-pedal.320.webp 320w, /images/news/ai-for-good-pedal.640.webp 640w",
+      alt: "Mélanie Gréaux at the AI for Good Global Summit in Geneva"
+    }
+  },
+  {
     date: "2026-09-07",
     title: "AI and rapid evidence reviews at the DEFRA data festival",
     detail:

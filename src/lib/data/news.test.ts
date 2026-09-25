@@ -5,7 +5,9 @@ const ISO = /^\d{4}-\d{2}-\d{2}$/;
 const TEAM_HOSTS = [
   "anil.recoil.org",
   "samreynolds.org",
-  "conservationevidencecopilot.com"
+  "conservationevidencecopilot.com",
+  "pedalhub.net",
+  "aiforgood.itu.int"
 ];
 
 describe("news events", () => {

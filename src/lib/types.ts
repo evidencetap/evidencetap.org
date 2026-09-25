@@ -26,6 +26,8 @@ export interface NewsEvent {
   date: string;
   title: string;
   detail: string;
+  /** Optional rich version of detail with inline links; falls back to detail. */
+  detailHtml?: string;
   kind: NewsKind;
   /** Links through to the fuller story on a team member's site */
   url: string;

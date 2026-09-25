@@ -24,7 +24,7 @@
     </p>
     <div class="what">
       <h4 class="title"><a href={event.url} rel="noopener">{event.title}</a></h4>
-      <p class="detail">{event.detail}</p>
+      <p class="detail">{#if event.detailHtml}{@html event.detailHtml}{:else}{event.detail}{/if}</p>
       <p class="via"><a href={event.url} rel="noopener">{linkHost(event.url)} →</a></p>
     </div>
     {#if event.picture}
@@ -130,6 +130,8 @@
     max-width: 56ch;
     font-size: 0.98rem;
   }
+  .detail :global(a) { text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  .detail :global(a:hover) { color: var(--accent); }
 
   .via { margin: 0; font-size: 0.82rem; }
   .via a {
