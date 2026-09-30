@@ -27,6 +27,20 @@ export const events: NewsEvent[] = [
     url: sam("notes.html#2026-09-04-week-notes-04092026")
   },
   {
+    date: "2026-09-29",
+    title: "A short film on the Conservation Evidence Copilot",
+    detail:
+      "Sam Reynolds and Lynn Dicks star in a short ai@cam film explaining where the Conservation Evidence Copilot fits into the wider Conservation Evidence project, and how it helps people find and pull together evidence by asking questions in plain language. It comes as the team reflects on how to talk clearly about very different kinds of AI, and on helping people navigate a fast-changing landscape.",
+    kind: "media",
+    url: "https://www.linkedin.com/posts/samandrewreynolds_as-part-of-our-conservation-evidence-copilot-share-7511016307333554176-9ccq/",
+    picture: {
+      src: "/images/news/copilot-video.640.webp",
+      srcset:
+        "/images/news/copilot-video.320.webp 320w, /images/news/copilot-video.640.webp 640w",
+      alt: "Sam Reynolds speaking to camera in the ai@cam film about the Conservation Evidence Copilot"
+    }
+  },
+  {
     date: "2026-09-25",
     title: "Evidence TAP at the AI for Good Summit",
     detail:

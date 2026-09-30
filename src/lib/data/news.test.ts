@@ -7,7 +7,8 @@ const TEAM_HOSTS = [
   "samreynolds.org",
   "conservationevidencecopilot.com",
   "pedalhub.net",
-  "aiforgood.itu.int"
+  "aiforgood.itu.int",
+  "linkedin.com"
 ];
 
 describe("news events", () => {
