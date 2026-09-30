@@ -145,7 +145,7 @@
   </h2>
   <p class="team-intro">
     Computer scientists, conservation scientists and education researchers
-    work side by side at the <strong>University of Cambridge</strong>. They
+    are working together at the <strong>University of Cambridge</strong>. We
     share a single living evidence engine and apply it wherever policy needs
     to know what works.
   </p>
