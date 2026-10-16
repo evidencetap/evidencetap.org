@@ -19,12 +19,20 @@ const anilImg = (name: string, alt: string) => ({
 
 export const events: NewsEvent[] = [
   {
-    date: "2026-10-01",
+    date: "2026-10-15",
     title: "Harnessing AI for Nature at Stanford",
     detail:
-      "Sam Reynolds has been invited to a Stanford University Uncommon Dialogue on harnessing AI for nature, alongside a small group of participants, with a guest lecture and departmental seminar planned around the visit.",
+      "Sam Reynolds joined a Stanford University Uncommon Dialogue on harnessing AI for nature, bringing together people from technology, conservation NGOs, policy and academia. The discussions weighed where AI can genuinely help conservation decisions, and what it takes to use it responsibly.",
     kind: "talk",
-    url: sam("notes.html#2026-09-04-week-notes-04092026")
+    url: sam(
+      "notes.html#2026-10-15-harnessing-ai-for-nature-a-visit-to-stanford-university-for-an-uncommon-dialogue-event"
+    ),
+    picture: {
+      src: "/images/news/stanford-dialogue.640.webp",
+      srcset:
+        "/images/news/stanford-dialogue.320.webp 320w, /images/news/stanford-dialogue.640.webp 640w",
+      alt: "The Uncommon Dialogue roundtable on AI for nature at Stanford University"
+    }
   },
   {
     date: "2026-09-29",
