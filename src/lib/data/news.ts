@@ -19,6 +19,23 @@ const anilImg = (name: string, alt: string) => ({
 
 export const events: NewsEvent[] = [
   {
+    date: "2026-10-20",
+    title: "Parliament hears evidence on AI toys in the early years",
+    detail:
+      "Jenny Gibson, who leads the project's education strand, gave evidence to Parliament's Education Committee inquiry into AI and EdTech. Drawing on the first systematic study of how AI toys affect children under five, which she co-authored at Cambridge's PEDAL Centre, she told MPs the toys struggled with social and pretend play and called for tighter regulation and clearer labelling. It is a reminder of why careful evidence synthesis matters in a field that is moving very fast.",
+    detailHtml:
+      'Jenny Gibson, who leads the project\'s education strand, gave evidence to Parliament\'s Education Committee inquiry into AI and EdTech. Drawing on the <a href="https://babyzone.org.uk/blogzone/babyzone-supports-cambridge-study-calling-for-tighter-regulation-of-ai-toys" rel="noopener">first systematic study</a> of how AI toys affect children under five, which she co-authored at Cambridge\'s PEDAL Centre, she told MPs the toys struggled with social and pretend play and called for tighter regulation and clearer labelling. It is a reminder of why careful evidence synthesis matters in a field that is moving very fast.',
+    kind: "talk",
+    url: "https://committees.parliament.uk/event/28359",
+    picture: {
+      src: "/images/news/ai-toys-committee.640.webp",
+      srcset:
+        "/images/news/ai-toys-committee.320.webp 320w, /images/news/ai-toys-committee.640.webp 640w",
+      alt: "The early years panel giving evidence to Parliament's Education Committee",
+      pos: "top"
+    }
+  },
+  {
     date: "2026-10-15",
     title: "Harnessing AI for Nature at Stanford",
     detail:
@@ -169,6 +186,22 @@ export const events: NewsEvent[] = [
       "etap-26-1",
       "The Evidence TAP team meeting at the Centre for the Study of Existential Risk"
     )
+  },
+  {
+    date: "2026-07-13",
+    title: "Evidence Exchange launches",
+    detail:
+      "Evidence Exchange, a new UK-wide network led by Cambridge's Centre for Science and Policy with our colleagues Nicola Buckley and Alexandru Marcoci among those involved, launched at the Royal Society. It helps civil and public servants connect with research, a shared goal with Evidence TAP's work to put evidence in reach of decision-makers.",
+    detailHtml:
+      '<a href="https://www.evex.ac.uk/2026/07/13/evidence-exchange-project-launches/" rel="noopener">Evidence Exchange</a>, a new UK-wide network led by Cambridge\'s Centre for Science and Policy with our colleagues Nicola Buckley and Alexandru Marcoci among those involved, launched at the Royal Society. It helps civil and public servants connect with research, a shared goal with Evidence TAP\'s work to put evidence in reach of decision-makers.',
+    kind: "milestone",
+    url: "https://www.evex.ac.uk/",
+    picture: {
+      src: "/images/news/evidence-exchange.640.webp",
+      srcset:
+        "/images/news/evidence-exchange.320.webp 320w, /images/news/evidence-exchange.640.webp 640w",
+      alt: "Guests in conversation at the Evidence Exchange launch reception"
+    }
   },
   {
     date: "2026-07-06",

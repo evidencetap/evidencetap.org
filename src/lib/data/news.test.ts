@@ -8,7 +8,9 @@ const TEAM_HOSTS = [
   "conservationevidencecopilot.com",
   "pedalhub.net",
   "aiforgood.itu.int",
-  "linkedin.com"
+  "linkedin.com",
+  "committees.parliament.uk",
+  "evex.ac.uk"
 ];
 
 describe("news events", () => {

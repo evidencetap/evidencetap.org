@@ -75,13 +75,13 @@ export const groups: PersonGroup[] = [
       {
         name: "Nicola Buckley",
         affiliation:
-          "Director for Fellowships and Networks, Centre for Science and Policy (CSaP), University of Cambridge",
+          "Project Lead, Evidence Exchange (EvEx); Director for Fellowships and Networks, Centre for Science and Policy (CSaP), University of Cambridge",
         url: "https://www.csap.cam.ac.uk/network/nicola-buckley/"
       },
       {
         name: "Alexandru Marcoci",
         affiliation:
-          "Assistant Professor in Global Risk and Resilience (AI), Centre for the Study of Existential Risk (CSER), University of Cambridge",
+          "Evidence Exchange (EvEx); Assistant Professor in Global Risk and Resilience (AI), Centre for the Study of Existential Risk (CSER), University of Cambridge",
         url: "https://www.cser.ac.uk/team/alex-marcoci/"
       }
     ]
