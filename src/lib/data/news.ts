@@ -22,7 +22,7 @@ export const events: NewsEvent[] = [
     date: "2026-11-15",
     title: "Turning PDFs back into usable evidence",
     detail:
-      "Anil Madhavapeddy and Sadiq Jaffer released Parsosaur, a tool that reads academic papers and pulls out their structure, such as sections, tables and references, so that experts can quickly check the findings against the source. The project's library of papers now stands at around 35 million full texts, and raw PDFs only become useful for evidence synthesis once they are organised this way.",
+      "Reliable evidence synthesis depends on knowing exactly where each finding comes from. The team released Parsosaur, which recovers the structure of an academic paper, including its sections, tables and references, so that every extracted claim can be traced back to its precise location in the source. This structured extraction is what makes a corpus now numbering around 35 million full texts auditable rather than opaque.",
     kind: "milestone",
     url: "https://anil.recoil.org/notes/parsosaur",
     picture: {
