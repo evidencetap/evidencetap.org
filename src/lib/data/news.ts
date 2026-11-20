@@ -19,6 +19,35 @@ const anilImg = (name: string, alt: string) => ({
 
 export const events: NewsEvent[] = [
   {
+    date: "2026-11-15",
+    title: "Turning PDFs back into usable evidence",
+    detail:
+      "Anil Madhavapeddy and Sadiq Jaffer released Parsosaur, a tool that reads academic papers and pulls out their structure, such as sections, tables and references, so that experts can quickly check the findings against the source. The project's library of papers now stands at around 35 million full texts, and raw PDFs only become useful for evidence synthesis once they are organised this way.",
+    kind: "milestone",
+    url: "https://anil.recoil.org/notes/parsosaur",
+    picture: {
+      src: "/images/news/parsosaur.640.webp",
+      srcset:
+        "/images/news/parsosaur.320.webp 320w, /images/news/parsosaur.640.webp 640w",
+      alt: "An academic paper marked up into structured sections by Parsosaur",
+      pos: "top"
+    }
+  },
+  {
+    date: "2026-11-09",
+    title: "Putting the Conservation Copilot in front of users",
+    detail:
+      "In a workshop with Cambridge's Centre for Science and Policy, the team showed the Conservation Evidence Copilot to people from government, industry and practice, and gathered feedback on how it could help their work. A roundtable and dinner explored what it would take to offer the tool widely, with the aim of keeping it free for most users.",
+    kind: "workshop",
+    url: sam("notes.html#2026-11-15-weeknotes-131126"),
+    picture: {
+      src: "/images/news/csap-workshop.640.webp",
+      srcset:
+        "/images/news/csap-workshop.320.webp 320w, /images/news/csap-workshop.640.webp 640w",
+      alt: "A roundtable discussion at the CSaP workshop on the Conservation Evidence Copilot"
+    }
+  },
+  {
     date: "2026-10-20",
     title: "Parliament hears evidence on AI toys in the early years",
     detail:
